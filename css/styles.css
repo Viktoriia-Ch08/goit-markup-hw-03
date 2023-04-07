@@ -110,6 +110,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: space-between;
+   border-bottom: 1px solid #E7E9FC;
 }
 
  /* Logo */
@@ -163,7 +164,7 @@ body {
 
  }
  
- .contacts-link {
+.contacts-link {
    color: var(--contacts-text-color);
    line-height: 1.5;
  } 
@@ -208,6 +209,7 @@ body {
    line-height: 1.5;
    letter-spacing: 0.04em;
    padding: 16px 32px;
+   border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -318,6 +320,7 @@ body {
    line-height: 1.5;
    letter-spacing: 0.04em;
    padding: 12px 24px;
+   border-radius: 4px;
    
 }
 .buttons:hover, .buttons:focus {
@@ -334,6 +337,9 @@ body {
    flex-wrap: wrap;
    justify-content: space-between;
    gap: 48px 24px;
+}
+.gallery-item {
+   border-bottom: 1px solid #E7E9FC;
 }
 .gallery-card-content {
    display: flex;
