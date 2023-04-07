@@ -357,7 +357,6 @@ padding-bottom: 120px;
 }
 .portfolio-container {
   border-top: none;
-  border: 1px solid #e7e9fc;
 }
 .gallery-list {
    display: flex;
@@ -377,7 +376,12 @@ padding-bottom: 120px;
    display: flex;
    flex-direction: column;
    padding: 32px 16px;
+   border: 1px solid #e7e9fc;
 }
 .gallery-title {
    margin-bottom: 8px;
+}
+
+.footer-section .logo-link {
+   display: inline-block;
 }
